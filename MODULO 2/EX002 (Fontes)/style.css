@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*Importando Fonts Family*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');    /*font-family: 'Work Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');   /*font-family: 'Kaushan Script', cursive;*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body{
+    background-image: linear-gradient(to right, #FECEE9, #EB9FEF);
+}
+
+
+main{
+    
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #b794a8;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    color: blue;    /*cor do texto*/
+    font-family: 'Work Sans', sans-serif;     /*estilo da fonte*/
+    text-align: center;     /*Alinha o texto*/
+    font-weight: 900;   /*Muda a grosura do texto*/
+    text-shadow: 1px 1px 2px rgb(3, 3, 123);    /*aplica sombra ao texto.*/
+    font-family: 'Times New Roman', Times, serif;   /*familid da fonte*/
+    text-decoration: underline;     /*aplicar uma decoração no texto*/
+    font-size: 3em;     /*tamanho da fonte*/
+}
+
+h2{
+    color: #011C27;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p{
+    text-align: justify;
+    color: #011C27;
+    font-family: 'Kaushan Script', cursive;
+}
